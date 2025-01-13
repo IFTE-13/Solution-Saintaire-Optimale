@@ -2,5 +2,9 @@
     "HomePage": {
       "title": "Hello world!",
       "about": "Go to the about page"
+    },
+    "AboutPage": {
+      "title" : "About Us",
+      "description": "At Solution Saintaire Optimale, we pride ourselves on providing professional and reliable cleaning services for both homes and businesses across Canada. Our goal is to deliver exceptional cleaning results that promote health, comfort, and peace of mind. Whether it’s a one-time deep cleaning or ongoing maintenance, our experienced team is equipped to handle all your cleaning needs with precision and care. We understand that cleanliness plays a vital role in your daily life. A clean space isn’t just about aesthetics—it impacts your health, mood, and productivity. That’s why we go above and beyond to ensure every corner of your space is thoroughly cleaned, leaving behind a fresh and inviting environment."
     }
   }

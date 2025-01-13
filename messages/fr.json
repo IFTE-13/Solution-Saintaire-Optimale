@@ -1,6 +1,10 @@
 {
     "HomePage": {
       "title": "Bonjour!",
-      "about": "Go to the about page"
+      "about": "Bienvenue sur la page d'accueil"
+    },
+    "AboutPage": {
+      "title" : "À propos de nous",
+      "description": "Chez Solution Saintaire Optimale, nous sommes fiers d'offrir des services de nettoyage professionnels et fiables pour les maisons et les entreprises partout au Canada. Notre objectif est d’offrir des résultats de nettoyage exceptionnels qui favorisent la santé, le confort et la tranquillité d’esprit. Qu'il s'agisse d'un nettoyage en profondeur ponctuel ou d'un entretien continu, notre équipe expérimentée est équipée pour répondre à tous vos besoins de nettoyage avec précision et soin. Nous comprenons que la propreté joue un rôle crucial dans votre vie quotidienne. Un espace propre n'est pas seulement une question d'esthétique : il a un impact sur votre santé, votre humeur et votre productivité. C'est pourquoi nous mettons tout en œuvre pour nous assurer que chaque recoin de votre espace soit soigneusement nettoyé, laissant derrière lui un environnement frais et accueillant."
     }
   }
