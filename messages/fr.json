@@ -1,10 +1,76 @@
 {
-    "HomePage": {
-      "title": "Bonjour!",
-      "about": "Bienvenue sur la page d'accueil"
+  "AboutPage": {
+    "title": "À propos de nous",
+    "companyName": "Solution Saintaire Optimale",
+    "description": "Chez Solution Saintaire Optimale, nous sommes fiers d'offrir des services de nettoyage professionnels et fiables pour les maisons et les entreprises partout au Canada. Notre objectif est d'offrir des résultats de nettoyage exceptionnels qui favorisent la santé, le confort et la tranquillité d'esprit. Qu'il s'agisse d'un nettoyage en profondeur ponctuel ou d'un entretien continu, notre équipe expérimentée est équipée pour répondre à tous vos besoins de nettoyage avec précision et soin. Nous comprenons que la propreté joue un rôle crucial dans votre vie quotidienne. Un espace propre n'est pas seulement une question d'esthétique : il a un impact sur votre santé, votre humeur et votre productivité. C'est pourquoi nous mettons tout en œuvre pour nous assurer que chaque recoin de votre espace soit soigneusement nettoyé, laissant derrière lui un environnement frais et accueillant.",
+    "mission": {
+      "title": "Notre Mission",
+      "description": "Nous croyons qu'un environnement propre a un impact direct sur la santé, la productivité et le bien-être. Nos solutions de nettoyage complètes vont au-delà du nettoyage de surface pour créer des espaces plus sains et plus accueillants."
     },
-    "AboutPage": {
-      "title" : "À propos de nous",
-      "description": "Chez Solution Saintaire Optimale, nous sommes fiers d'offrir des services de nettoyage professionnels et fiables pour les maisons et les entreprises partout au Canada. Notre objectif est d’offrir des résultats de nettoyage exceptionnels qui favorisent la santé, le confort et la tranquillité d’esprit. Qu'il s'agisse d'un nettoyage en profondeur ponctuel ou d'un entretien continu, notre équipe expérimentée est équipée pour répondre à tous vos besoins de nettoyage avec précision et soin. Nous comprenons que la propreté joue un rôle crucial dans votre vie quotidienne. Un espace propre n'est pas seulement une question d'esthétique : il a un impact sur votre santé, votre humeur et votre productivité. C'est pourquoi nous mettons tout en œuvre pour nous assurer que chaque recoin de votre espace soit soigneusement nettoyé, laissant derrière lui un environnement frais et accueillant."
+    "features": {
+      "title": "Pourquoi choisir Solution Saintaire Optimale",
+      "professional": {
+        "title": "Équipe Professionnelle",
+        "description": "Des professionnels formés et dignes de confiance, dévoués à fournir des résultats de nettoyage exceptionnels."
+      },
+      "eco": {
+        "title": "Solutions Écologiques",
+        "description": "Des produits de nettoyage sûrs et non toxiques, efficaces et respectueux de l'environnement."
+      },
+      "custom": {
+        "title": "Services Personnalisés",
+        "description": "Solutions de nettoyage sur mesure pour les maisons, les bureaux et les espaces commerciaux."
+      }
+    },
+    "services": {
+      "title": "Nos Services",
+      "residential": {
+        "title": "Nettoyage Résidentiel",
+        "description": "Nettoyage complet pour maisons et appartements"
+      },
+      "commercial": {
+        "title": "Nettoyage Commercial",
+        "description": "Nettoyage professionnel pour bureaux et espaces commerciaux"
+      },
+      "construction": {
+        "title": "Nettoyage Après-Construction",
+        "description": "Nettoyage approfondi après les projets de construction"
+      },
+      "moveInOut": {
+        "title": "Nettoyage d'Emménagement/ Déménagement",
+        "description": "Nettoyage complet pour les transitions de propriété"
+      },
+      "deep": {
+        "title": "Nettoyage en Profondeur",
+        "description": "Désinfection extensive et nettoyage approfondi"
+      },
+      "maintenance": {
+        "title": "Entretien Régulier",
+        "description": "Nettoyage régulier et traitement ponctuel"
+      }
+    },
+    "reasons": {
+      "title": "Pourquoi Nous Choisir",
+      "reliability": {
+        "title": "Fiabilité",
+        "description": "Service fiable avec un nettoyage constant, ponctuel et de haute qualité à chaque fois."
+      },
+      "expertise": {
+        "title": "Expertise Locale",
+        "description": "Une entreprise canadienne comprenant les besoins de la communauté locale et les attentes élevées."
+      },
+      "detail": {
+        "title": "Attention aux Détails",
+        "description": "Nettoyage méticuleux qui garantit que chaque coin est parfaitement désinfecté et impeccable."
+      },
+      "satisfaction": {
+        "title": "Satisfaction Client",
+        "description": "Construction de relations à long terme en comprenant et dépassant les attentes des clients."
+      },
+      "comprehensive": {
+        "title": "Services Complets",
+        "description": "Solutions de nettoyage flexibles, du nettoyage en profondeur ponctuel à l'entretien continu."
+      }
     }
   }
+}

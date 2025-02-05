@@ -70,3 +70,22 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+  * {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+.gradient-text {
+  @apply bg-gradient-to-b from-black to-[#379ACF] dark:from-[#6AB2CF] dark:to-[#379ACF] text-transparent bg-clip-text;
+}
+
+.backgound {
+  @apply bg-[#e0f2fe] dark:bg-transparent;
+}

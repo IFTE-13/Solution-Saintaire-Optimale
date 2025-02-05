@@ -1,10 +1,76 @@
 {
-    "HomePage": {
-      "title": "Hello world!",
-      "about": "Go to the about page"
+  "AboutPage": {
+    "title": "About Us",
+    "companyName": "Solution Saintaire Optimale",
+    "description": "At Solution Saintaire Optimale, we pride ourselves on providing professional and reliable cleaning services for both homes and businesses across Canada. Our goal is to deliver exceptional cleaning results that promote health, comfort, and peace of mind. Whether it's a one-time deep cleaning or ongoing maintenance, our experienced team is equipped to handle all your cleaning needs with precision and care. We understand that cleanliness plays a vital role in your daily life. A clean space isn't just about aesthetics—it impacts your health, mood, and productivity. That's why we go above and beyond to ensure every corner of your space is thoroughly cleaned, leaving behind a fresh and inviting environment.",
+    "mission": {
+      "title": "Our Mission",
+      "description": "We believe a clean environment directly impacts health, productivity, and well-being. Our comprehensive cleaning solutions go beyond surface cleaning to create healthier, more inviting spaces."
     },
-    "AboutPage": {
-      "title" : "About Us",
-      "description": "At Solution Saintaire Optimale, we pride ourselves on providing professional and reliable cleaning services for both homes and businesses across Canada. Our goal is to deliver exceptional cleaning results that promote health, comfort, and peace of mind. Whether it’s a one-time deep cleaning or ongoing maintenance, our experienced team is equipped to handle all your cleaning needs with precision and care. We understand that cleanliness plays a vital role in your daily life. A clean space isn’t just about aesthetics—it impacts your health, mood, and productivity. That’s why we go above and beyond to ensure every corner of your space is thoroughly cleaned, leaving behind a fresh and inviting environment."
+    "features": {
+      "title": "Why Choose Solution Saintaire Optimale",
+      "professional": {
+        "title": "Professional Team",
+        "description": "Trained, trustworthy professionals dedicated to delivering exceptional cleaning results."
+      },
+      "eco": {
+        "title": "Eco-Friendly Solutions",
+        "description": "Safe, non-toxic cleaning products that are effective and environmentally conscious."
+      },
+      "custom": {
+        "title": "Customized Services",
+        "description": "Tailored cleaning solutions for homes, offices, and commercial spaces."
+      }
+    },
+    "services": {
+      "title": "Our Services",
+      "residential": {
+        "title": "Residential Cleaning",
+        "description": "Comprehensive cleaning for homes and apartments"
+      },
+      "commercial": {
+        "title": "Commercial Cleaning",
+        "description": "Professional cleaning for offices and retail spaces"
+      },
+      "construction": {
+        "title": "Post-Construction Cleaning",
+        "description": "Thorough cleaning after construction projects"
+      },
+      "moveInOut": {
+        "title": "Move-In/Move-Out Cleaning",
+        "description": "Comprehensive cleaning for property transitions"
+      },
+      "deep": {
+        "title": "Deep Cleaning",
+        "description": "Extensive sanitization and thorough cleaning"
+      },
+      "maintenance": {
+        "title": "Regular Maintenance",
+        "description": "Consistent cleaning and spot treatment"
+      }
+    },
+    "reasons": {
+      "title": "Why Choose Us",
+      "reliability": {
+        "title": "Reliability",
+        "description": "Dependable service with consistent, punctual, and top-quality cleaning every time."
+      },
+      "expertise": {
+        "title": "Local Expertise",
+        "description": "A Canadian company understanding local community needs and high-standard expectations."
+      },
+      "detail": {
+        "title": "Attention to Detail",
+        "description": "Meticulous cleaning that ensures every corner is perfectly sanitized and spotless."
+      },
+      "satisfaction": {
+        "title": "Customer Satisfaction",
+        "description": "Building long-term relationships by understanding and exceeding client expectations."
+      },
+      "comprehensive": {
+        "title": "Comprehensive Services",
+        "description": "Flexible cleaning solutions from one-time deep cleans to ongoing maintenance."
+      }
     }
   }
+}
