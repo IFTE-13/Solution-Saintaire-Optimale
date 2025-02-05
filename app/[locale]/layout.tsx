@@ -8,6 +8,7 @@ import Navbar from '@/components/shared/Navbar';
 import { Metadata } from 'next';
 import { twMerge } from 'tailwind-merge';
 import { Poppins } from "next/font/google";
+import Footer from '@/components/shared/Footer';
 
 export const metadata: Metadata = {
   title: "Solution Saintaire Optimale",
@@ -42,6 +43,7 @@ export default async function LocaleLayout({
           <NextIntlClientProvider messages={messages} locale={locale}>
             <Navbar />
             {children}
+            <Footer />
           </NextIntlClientProvider>
         </ThemeProvider>
       </body>
