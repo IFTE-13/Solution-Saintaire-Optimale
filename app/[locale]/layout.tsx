@@ -3,6 +3,18 @@ import {getMessages} from 'next-intl/server';
 import {notFound} from 'next/navigation';
 import {Locale, routing} from '@/i18n/routing';
 import "./globals.css";
+import { ThemeProvider } from '@/providers/theme-provider';
+import Navbar from '@/components/shared/Navbar';
+import { Metadata } from 'next';
+import { twMerge } from 'tailwind-merge';
+import { Poppins } from "next/font/google";
+
+export const metadata: Metadata = {
+  title: "Solution Saintaire Optimale",
+  description: "Create by IFTE-13",
+};
+
+const poppins = Poppins({ subsets: ["latin"], weight: ["400", "600"] });
  
 export default async function LocaleLayout({
   children,
@@ -19,11 +31,19 @@ export default async function LocaleLayout({
   const messages = await getMessages();
  
   return (
-    <html lang={locale}>
-      <body>
-        <NextIntlClientProvider messages={messages} locale={locale}>
-          {children}
-        </NextIntlClientProvider>
+    <html lang={locale} suppressHydrationWarning>
+      <body className={twMerge(poppins.className, "antialiased")}>
+      <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
+          <NextIntlClientProvider messages={messages} locale={locale}>
+            <Navbar />
+            {children}
+          </NextIntlClientProvider>
+        </ThemeProvider>
       </body>
     </html>
   );
