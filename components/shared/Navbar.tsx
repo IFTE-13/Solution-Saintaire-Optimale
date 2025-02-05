@@ -13,15 +13,17 @@ import Link from "next/link";
 import ToggleTheme from "@/components/toogle-theme";
 import Image from "next/image";
 import LocaleSwitcher from "@/components/Locale/LocaleSwitcher";
-
-const navItems = [
-  { href: "/", label: "Home" },
-  { href: "/about", label: "About" },
-  { href: "/contact", label: "Contact" },
-];
+import { useTranslations } from "next-intl";
 
 const Navbar = () => {
+  const t = useTranslations("NavItems");
   const [isOpen, setIsOpen] = React.useState(false);
+
+  const navItems = [
+    { href: "/", label: t("home.lable") },
+    { href: "/about", label: t("about.lable") },
+    { href: "/contact", label: t("contact.lable") },
+  ];
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -36,7 +38,7 @@ const Navbar = () => {
               className="cursor-pointer"
             />
             <span className="hidden lg:block text-xl font-semibold">
-              Solution Saintaire Optimale
+              {t("companyName")}
             </span>
           </Link>
 
@@ -52,7 +54,7 @@ const Navbar = () => {
                 </Link>
               ))}
             </nav>
-            
+
             <ToggleTheme />
             <LocaleSwitcher />
 
@@ -74,7 +76,7 @@ const Navbar = () => {
                       className="cursor-pointer"
                     />
                     <span className="font-semibold">
-                      Solution Saintaire Optimale
+                      {t("companyName")}
                     </span>
                   </SheetTitle>
                 </SheetHeader>
