@@ -5,13 +5,13 @@ import { useTranslations } from 'next-intl';
 import { BadgeCheck, ScanSearch, Sprout, Home, Briefcase, Wrench, Truck, Layers, Shield, Star, Eye, Smile, CheckCircle } from "lucide-react";
 import { LucideIcon } from 'lucide-react';
 
-export interface SectionConfig {
+interface SectionConfig {
   key: string;
   icon: LucideIcon;
   color: string;
 }
 
-export const sections: Record<string, SectionConfig[]> = {
+const sections: Record<string, SectionConfig[]> = {
   features: [
     { key: 'professional', icon: BadgeCheck, color: 'text-blue-600' },
     { key: 'eco', icon: Sprout, color: 'text-green-600' },
