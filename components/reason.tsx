@@ -105,7 +105,7 @@ export default function Reasons() {
   };
 
   return (
-    <section className="py-16 px-4 md:px-8 lg:px-16">
+    <section className="py-16 px-4 md:px-8 lg:px-16 bg-[#EAEEFE] dark:bg-transparent">
       <div className="container mx-auto">
         <motion.div 
           initial={{ opacity: 0, y: -20 }}

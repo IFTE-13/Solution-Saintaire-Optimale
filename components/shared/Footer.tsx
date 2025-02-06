@@ -16,7 +16,7 @@ const Footer = () => {
   const year = date.getFullYear();
   const t = useTranslations('FooterSection');
   return (
-    <footer className="pt-12">
+    <footer className="pt-12 background-reverse">
       <div className="container mx-auto px-4 flex flex-col items-center space-y-6 pb-8">
         <div className="w-72">
           <Link href="/">
@@ -39,7 +39,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="border-t">
+      <div className="border-t border-gray-400 dark:border-gray-100">
         <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm">
             © {year} {t('companyName')}

@@ -91,5 +91,8 @@ body {
 }
 
 .background {
+  @apply bg-[radial-gradient(ellipse_200%_100%_at_top_left,#7dd3fc,#EAEEFE_100%)] overflow-x-clip dark:bg-none;
+}
+.background-reverse {
   @apply bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#7dd3fc,#EAEEFE_100%)] overflow-x-clip dark:bg-none;
 }
