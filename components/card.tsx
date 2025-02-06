@@ -45,7 +45,7 @@ const Card = ({ i, title, description, src, progress, range, targetScale }: Card
                 <h2 className="text-3xl md:text-4xl font-bold gradient-text">
                     {title}
                 </h2>
-                <p className="text-sm text-justify">
+                <p className="text-md text-justify">
                     {description}
                 </p>
             </div>

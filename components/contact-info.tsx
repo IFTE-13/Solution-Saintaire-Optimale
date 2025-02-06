@@ -16,7 +16,7 @@ const ContactInfo = () => {
   ];
 
   return (
-    <div>
+    <div className=''>
       <CardHeader className="p-0 space-y-2">
         <CardTitle className="text-3xl font-bold tracking-tight">
           {t('title')}

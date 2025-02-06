@@ -35,7 +35,14 @@ const Navbar = () => {
               alt="Logo" 
               height={100} 
               width={100} 
-              className="cursor-pointer"
+              className="cursor-pointer block dark:hidden"
+            />
+            <Image 
+              src="/logo-white.png" 
+              alt="Logo" 
+              height={100} 
+              width={100} 
+              className="cursor-pointer hidden dark:block"
             />
             <span className="hidden lg:block text-xl font-semibold">
               {t("companyName")}

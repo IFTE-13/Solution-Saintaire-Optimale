@@ -2,7 +2,7 @@ import React from 'react';
 
 const LocationMap = () => {
   return (
-    <div className='py-24'>
+    <div className='py-24 bg-[#EAEEFE] dark:bg-transparent'>
         <div className="container mx-auto px-6 h-96 md:h-[500px] lg:h-[600px] mb-8">
       <h3 className="text-3xl font-semibold text-center mb-4">
         Our Location

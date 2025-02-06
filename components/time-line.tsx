@@ -52,7 +52,7 @@ const GradientTimeline: React.FC = () => {
 
   return (
     <div className="hidden md:block">
-      <div className="max-w-7xl mx-auto py-16 px-4 relative">
+      <div className="max-w-7xl mx-auto py-16 px-4 my-12 relative">
         {/* Gradient Timeline Line */}
         <div className="absolute left-1/2 top-0 bottom-0 w-1 transform -translate-x-1/2">
           <div className="h-full bg-gradient-to-b from-purple-500 via-pink-500 to-red-500" />

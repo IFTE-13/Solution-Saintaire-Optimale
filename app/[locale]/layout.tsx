@@ -9,6 +9,7 @@ import { Metadata } from 'next';
 import { twMerge } from 'tailwind-merge';
 import { Poppins } from "next/font/google";
 import Footer from '@/components/shared/Footer';
+import { ReactLenis } from "@/providers/lenis-provider"
 
 export const metadata: Metadata = {
   title: "Solution Saintaire Optimale",
@@ -33,6 +34,7 @@ export default async function LocaleLayout({
  
   return (
     <html lang={locale} suppressHydrationWarning>
+      <ReactLenis root>
       <body className={twMerge(poppins.className, "antialiased")}>
       <ThemeProvider
             attribute="class"
@@ -47,6 +49,7 @@ export default async function LocaleLayout({
           </NextIntlClientProvider>
         </ThemeProvider>
       </body>
+      </ReactLenis>
     </html>
   );
 }

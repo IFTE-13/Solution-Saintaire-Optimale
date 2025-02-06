@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import Logo from '@/public/logo.png';
+import LogoWhite from '@/public/logo-white.png';
 import { FacebookIcon, InstagramIcon, TwitterIcon } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
@@ -18,10 +19,19 @@ const Footer = () => {
   return (
     <footer className="pt-12 background-reverse">
       <div className="container mx-auto px-4 flex flex-col items-center space-y-6 pb-8">
-        <div className="w-72">
+        <div className="w-72 block dark:hidden">
           <Link href="/">
             <Image
               src={Logo}
+              alt="Solution Saintaire Optimale"
+              className="h-full w-full object-contain"
+            />
+          </Link>
+        </div>
+        <div className="w-72 hidden dark:block">
+          <Link href="/">
+          <Image
+              src={LogoWhite}
               alt="Solution Saintaire Optimale"
               className="h-full w-full object-contain"
             />
