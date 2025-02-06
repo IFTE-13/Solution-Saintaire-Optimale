@@ -2,9 +2,9 @@
 
 import Image from 'next/image';
 import { useState, useRef } from 'react';
-import { MagicCard } from './ui/magic-card';
-import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
-import { Button } from './ui/button';
+import { MagicCard } from '@/components/ui/magic-card';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
 import { useTranslations } from 'next-intl';
 import { motion, useInView } from 'framer-motion';
 

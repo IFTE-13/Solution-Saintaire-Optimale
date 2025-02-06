@@ -3,7 +3,7 @@ import { useTranslations } from 'next-intl';
 import Image from "next/image";
 import rtcu from "@/public/reason.jpg";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { TextAnimate } from "./text-animate";
+import { TextAnimate } from "@/components/ui/text-animate";
 import { Check, Star, Sparkles, Clock } from "lucide-react";
 import { motion } from 'framer-motion';
 
