@@ -1,7 +1,15 @@
 {
   "HomePage": {
-      "title": "Hello world!",
-      "about": "Go to the about page"
+      "title": "Comprehensive Cleaning Services Tailored to Your Needs",
+      "description": "Discover our comprehensive range of services crafted to maintain the highest standards of cleanliness for your space. Whether it’s your home, office, or commercial establishment, we’re dedicated to creating a spotless, healthy, and welcoming environment that you can enjoy every day.",
+      "button": "Contact us",
+      "reviewDescription": {
+          "des1": "Solution Saintaire Optimale did an outstanding job! They were thoreau and cleaned every corner of my office to perfection. I couldn't be happier with their service!",
+          "des2": "They transformed my floors into something that looks brand new! Fast, professional, and thorough. I highly recommend them for any cleaning job.",
+          "des3": "Solution Saintaire Optimale's attention to detail is second to none. They made my home feel fresh, clean, and inviting. I'm already planning my next booking with them!",
+          "des4": "The attention to detail was remarkable. They made my home shine from top to bottom—truly a fresh start! Will definitely book again.",
+          "des5": "Solution Saintaire Optimale went above and beyond. They tackled areas I hadn't even considered, and my building has never looked better. Truly top-notch service!"
+      }
   },
   "NavItems": {
     "companyName": "Solution Saintaire Optimale",
@@ -96,6 +104,47 @@
       "comprehensive": {
         "title": "Comprehensive Services",
         "description": "Flexible cleaning solutions from one-time deep cleans to ongoing maintenance."
+      }
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "description": "We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
+    "location": "Quebec, Canada",
+    "phone": "514-235-7890",
+    "email": "arman@ssoptimale.ca",
+    "support": "24/7 Support Available",
+    "social": {
+      "title": "Connect With Us",
+      "linkedin": "Follow us on LinkedIn",
+      "facebook": "Follow us on Facebook"
+    },
+    "form": {
+      "name": {
+        "label": "Full Name",
+        "placeholder": "John Doe",
+        "required": "Name is required",
+        "minLength": "Name must be at least 2 characters"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "john@example.com",
+        "required": "Email is required",
+        "invalid": "Invalid email address"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Tell us about your query...",
+        "required": "Message is required",
+        "minLength": "Message must be at least 10 characters"
+      },
+      "submit": {
+        "sending": "Sending...",
+        "send": "Send Message"
+      },
+      "status": {
+        "success": "Thank you for your message. We will get back to you soon!",
+        "error": "Something went wrong. Please try again later."
       }
     }
   }

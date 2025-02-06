@@ -5,7 +5,7 @@ import Logo from '@/public/logo.png';
 import { FacebookIcon, InstagramIcon, TwitterIcon } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
-const socialLinks = [
+export const socialLinks = [
   { href: '#', label: 'Facebook', icon: <FacebookIcon />, color: 'hover:text-blue-700' },
   { href: '#', label: 'Instagram', icon: <InstagramIcon />, color: 'hover:text-red-500' },
   { href: '#', label: 'Twitter', icon: <TwitterIcon />, color: 'hover:text-blue-500' },

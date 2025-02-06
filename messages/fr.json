@@ -1,7 +1,15 @@
 {
   "HomePage": {
-      "title": "Bonjour!",
-      "about": "Go to the about page"
+      "title": "Des services de nettoyage complets adaptés à vos besoins",
+      "description": "Découvrez notre gamme complète de services conçus pour maintenir les plus hauts standards de propreté pour votre espace. Qu’il s’agisse de votre maison, de votre bureau ou de votre établissement commercial, nous nous engageons à créer un environnement impeccable, sain et accueillant dont vous pourrez profiter au quotidien.",
+      "button": "Contactez-nous",
+      "reviewDescription": {
+          "des1": "Solution Saintaire Optimale a fait un travail remarquable ! Ils étaient Thoreau et nettoyaient chaque recoin de mon bureau à la perfection. Je ne pourrais pas être plus satisfait de leur service !",
+          "des2": "Ils ont transformé mes sols en quelque chose de tout neuf ! Rapide, professionnel et minutieux. Je les recommande vivement pour tout travail de nettoyage.",
+          "des3": "L'attention aux détails de Solution Saintaire Optimale est sans égal. Ils ont rendu ma maison fraîche, propre et accueillante. Je prépare déjà ma prochaine réservation avec eux !",
+          "des4": "L'attention portée aux détails était remarquable. Ils ont fait briller ma maison de fond en comble : un véritable nouveau départ ! Je réserverai certainement à nouveau.",
+          "des5": "Solution Saintaire Optimale est allée au-delà des attentes. Ils ont abordé des domaines auxquels je n'avais même pas pensé, et mon bâtiment n'a jamais été aussi beau. Un service vraiment au top !"
+      }
   },
   "NavItems": {
     "companyName": "Solution Saintaire Optimale",
@@ -98,5 +106,46 @@
         "description": "Solutions de nettoyage flexibles, du nettoyage en profondeur ponctuel à l'entretien continu."
       }
     }
-  }
+  },
+  "contact": {
+      "title": "Contactez-nous",
+      "description": "Nous aimerions avoir de vos nouvelles. Envoyez-nous un message et nous vous répondrons dès que possible.",
+      "location": "Québec, Canada",
+      "phone": "514-235-7890",
+      "email": "arman@ssoptimale.ca",
+      "support": "Support disponible 24h/24 et 7j/7",
+      "social": {
+        "title": "Suivez-nous",
+        "linkedin": "Suivez-nous sur LinkedIn",
+        "facebook": "Suivez-nous sur Facebook"
+      },
+      "form": {
+        "name": {
+          "label": "Nom complet",
+          "placeholder": "Jean Dupont",
+          "required": "Le nom est requis",
+          "minLength": "Le nom doit contenir au moins 2 caractères"
+        },
+        "email": {
+          "label": "Courriel",
+          "placeholder": "jean@example.com",
+          "required": "L'email est requis",
+          "invalid": "Adresse email invalide"
+        },
+        "message": {
+          "label": "Message",
+          "placeholder": "Parlez-nous de votre demande...",
+          "required": "Le message est requis",
+          "minLength": "Le message doit contenir au moins 10 caractères"
+        },
+        "submit": {
+          "sending": "Envoi en cours...",
+          "send": "Envoyer le message"
+        },
+        "status": {
+          "success": "Merci pour votre message. Nous vous répondrons bientôt !",
+          "error": "Une erreur s'est produite. Veuillez réessayer plus tard."
+        }
+      }
+    }
 }
