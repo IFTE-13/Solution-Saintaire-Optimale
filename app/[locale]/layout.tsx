@@ -12,7 +12,7 @@ import Footer from '@/components/shared/Footer';
 
 export const metadata: Metadata = {
   title: "Solution Saintaire Optimale",
-  description: "Create by IFTE-13",
+  description: "Create by ColdLabs",
 };
 
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "600"] });

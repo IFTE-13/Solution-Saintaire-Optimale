@@ -15,7 +15,7 @@
         "desc": "Experience a spotless space with our professional cleaning services. From deep cleaning to routine maintenance, our expert team ensures your environment is clean, fresh, and welcoming. Let us handle the mess, so you can enjoy a pristine space every day.",
         "button": "Contact us"
       },
-      "services": {
+      "industries": {
         "title": "Industries",
         "desc": "We Serve",
         "commercial": {
@@ -213,5 +213,38 @@
         "error": "Something went wrong. Please try again later."
       }
     }
+  },
+  "services": {
+    "disinfection": {
+      "title": "Professional Disinfection",
+      "description": "Providing top-tier disinfection services to ensure clean and safe environments in various settings, from offices to healthcare facilities.",
+      "moreDescription": "We utilize advanced technologies and eco-friendly products to eliminate pathogens and allergens, ensuring that your spaces remain safe and healthy. Our disinfection services are customizable based on the specific needs of your environment. We focus on providing thorough and effective sanitization that meets high standards for hygiene. Our team uses hospital-grade disinfectants and adheres to best practices to ensure maximum efficacy. We also offer flexible scheduling to minimize disruption to your operations. Key benefits include: Reduced risk of infections Safe, eco-friendly products Customizable services for different environments Minimal disruption with flexible scheduling"
+    },
+    "cleaning": {
+      "title": "Commercial Cleaning",
+      "description": "Comprehensive cleaning solutions for homes and businesses, tailored to meet specific sanitation and upkeep needs.",
+      "moreDescription": "From daily cleaning to deep cleaning, we offer personalized services to ensure every corner of your home or business remains spotless. We specialize in eco-friendly cleaning methods and use high-quality products to guarantee exceptional results. Our cleaning professionals are trained to handle all types of spaces, ensuring your environment is fresh, clean, and healthy. Whether you need routine cleaning or occasional deep cleaning, we customize our services based on your needs. Benefits include: Eco-friendly cleaning solutions trained professionals for every task Customized cleaning schedules Exceptional attention to detail High-quality, non-toxic cleaning products"
+    },
+    "indoorJanitorial": {
+      "title": "Indoor Janitorial Services",
+      "description": "Professional janitorial services focused on maintaining pristine indoor spaces, including offices, schools, and retail locations.",
+      "moreDescription": "Our janitorial team offers regular cleaning schedules, ensuring a clean and organized workspace for employees and visitors. We take pride in maintaining hygienic and welcoming indoor environments for businesses of all sizes. Our services range from daily cleaning to periodic deep cleaning and specialized tasks like carpet care and window washing. We use effective cleaning techniques to ensure that your space remains presentable and professional at all times. Highlights of our janitorial services include: Daily or periodic cleaning schedules Comprehensive cleaning services (floor care, window washing, etc.) Trained staff and quality equipment flexible hours to accommodate your business schedule consistent attention to detail and hygiene"
+    },
+    "commercialFloor": {
+      "title": "Commercial Floor Care",
+      "description": "Expert floor cleaning services for commercial properties, enhancing the look and lifespan of various flooring types.",
+      "moreDescription": "We specialize in floor care for a wide variety of surfaces, including carpet, tile, hardwood, and concrete. Our services include deep cleaning, waxing, and polishing to maintain a polished and professional appearance. We understand the importance of preserving the look and durability of your flooring while ensuring cleanliness and hygiene. Our team uses industry-leading tools and techniques to extend the lifespan of your floors. Floor care services include: Deep cleaning for carpets, tile, and hardwood floor waxing and polishing for a lasting shine stain removal and spot treatment routine maintenance plans for high-traffic areas eco-friendly products that protect your flooring and environment"
+    },
+    "outdoorMaintenance": {
+      "title": "Exterior Maintenance",
+      "description": "Outdoor maintenance services to keep building exteriors and surrounding areas clean and well-kept year-round.",
+      "moreDescription": "We offer pressure washing, landscaping, and general maintenance to ensure that your property's exterior is always clean and inviting. Our outdoor services help maintain your building's curb appeal and longevity. Whether you need routine maintenance or seasonal services, we can tailor a plan that fits your specific needs. Our team is equipped to handle everything from routine pressure washing to extensive landscaping projects. Outdoor services include: Pressure washing of building exteriors and walkways landscaping and lawn care Seasonal cleanup (leaf removal, snow removal) general maintenance for parking lots and outdoor areas customized plans to fit your property's needs"
+    },
+    "eventSupport": {
+      "title": "Event Cleaning Support",
+      "description": "Full-service event support, including pre-event setup and post-event cleaning, to ensure smooth and spotless event experiences.",
+      "moreDescription": "From corporate events to private parties, we provide comprehensive event support, including setup, cleanup, and maintenance during the event. Our team ensures that everything runs smoothly, so you can focus on your event while we handle the details. We provide all necessary equipment and staff to ensure your event is a success. Whether you're hosting a small gathering or a large conference, we can customize our services to fit your needs. Event support services include: Pre-event setup and post-event breakdown cleanup during and after events furniture and equipment rentals customized plans based on event size and type professional, efficient staff to handle all logistics"
+    },
+    "closeButton": "Close"
   }
 }

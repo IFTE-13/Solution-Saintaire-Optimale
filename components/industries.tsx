@@ -7,7 +7,7 @@ import { useTranslations } from 'next-intl';
 
 export default function Industries() {
 
-    const t = useTranslations('HomePage.services');
+    const t = useTranslations('HomePage.industries');
 
     const data = [
         {
@@ -49,12 +49,12 @@ export default function Industries() {
 
 
   return (
-    <div className='bg-[#EAEEFE]'>
+    <div className='bg-[#EAEEFE] dark:bg-transparent'>
       <main ref={container} className='relative py-24'>
         <div className="max-w-[540px] mx-auto mb-10">
-        <h2 className="text-center text-3xl md:text-[54px] md:leading-[60px] font-bold gradient-text">{t('title')}</h2>
-        <h2 className="text-center text-2xl font-bold text-sky-800">{t('desc')}</h2>
-      </div>
+          <h2 className="text-center text-3xl md:text-[54px] md:leading-[60px] font-bold gradient-text">{t('title')}</h2>
+          <h2 className="text-center text-2xl font-bold text-sky-800">{t('desc')}</h2>
+        </div>
         {
           data.map( (industries, i) => {
             const targetScale = 1 - ( (data.length - i) * 0.05);

@@ -15,7 +15,7 @@
         "desc": "Découvrez un espace impeccable grâce à nos services de nettoyage professionnels. Du nettoyage en profondeur à l’entretien de routine, notre équipe d’experts veille à ce que votre environnement soit propre, frais et accueillant. Laissez-nous nous occuper du désordre afin que vous puissiez profiter d'un espace vierge au quotidien.",
         "button": "Contactez-nous"
       },
-      "services": {
+      "industries": {
         "title": "Secteurs",
         "desc": "Nous servons",
         "commercial": {
@@ -213,5 +213,38 @@
           "error": "Une erreur s'est produite. Veuillez réessayer plus tard."
         }
       }
+    },
+    "services": {
+      "disinfection": {
+        "title": "Désinfection Professionnelle",
+        "description": "Fournir des services de désinfection de premier ordre pour garantir des environnements propres et sûrs dans divers contextes, des bureaux aux établissements de santé.",
+        "moreDescription": "Nous utilisons des technologies avancées et des produits écologiques pour éliminer les agents pathogènes et les allergènes, garantissant ainsi que vos espaces restent sains et sécurisés. Nos services de désinfection sont personnalisables en fonction des besoins spécifiques de votre environnement. Nous nous concentrons sur une désinfection approfondie et efficace qui respecte des normes d'hygiène élevées. Notre équipe utilise des désinfectants de qualité hospitalière et suit les meilleures pratiques pour assurer une efficacité maximale. Nous offrons également une planification flexible pour minimiser les perturbations de vos activités. Avantages clés : Réduction des risques d'infections Produits sûrs et écologiques Services personnalisables selon les environnements Perturbations minimales grâce à une planification flexible"
+      },
+      "cleaning": {
+        "title": "Nettoyage Commercial",
+        "description": "Solutions de nettoyage complètes pour les habitations et les entreprises, adaptées aux besoins spécifiques de propreté et d'entretien.",
+        "moreDescription": "Du nettoyage quotidien au nettoyage en profondeur, nous offrons des services personnalisés pour garantir que chaque recoin de votre maison ou entreprise reste impeccable. Nous sommes spécialisés dans les méthodes de nettoyage écologiques et utilisons des produits de haute qualité pour garantir des résultats exceptionnels. Nos professionnels du nettoyage sont formés pour s'occuper de tous types d'espaces, assurant un environnement frais, propre et sain. Que vous ayez besoin d'un nettoyage régulier ou occasionnel, nous adaptons nos services en fonction de vos besoins. Avantages : Solutions de nettoyage écologiques Professionnels formés pour chaque tâche Programmes de nettoyage personnalisés Attention exceptionnelle aux détails Produits de nettoyage non toxiques et de haute qualité"
+      },
+      "indoorJanitorial": {
+        "title": "Services de Conciergerie Intérieure",
+        "description": "Services professionnels de conciergerie visant à maintenir des espaces intérieurs impeccables, y compris les bureaux, les écoles et les magasins.",
+        "moreDescription": "Notre équipe de conciergerie propose des calendriers de nettoyage réguliers, garantissant un espace de travail propre et organisé pour les employés et les visiteurs. Nous sommes fiers de maintenir des environnements intérieurs hygiéniques et accueillants pour les entreprises de toutes tailles. Nos services vont du nettoyage quotidien aux nettoyages en profondeur périodiques, en passant par des tâches spécialisées comme l'entretien des tapis et le lavage des vitres. Nous utilisons des techniques de nettoyage efficaces pour garantir que votre espace reste présentable et professionnel à tout moment. Points forts de nos services de conciergerie : Nettoyage quotidien ou périodique Services de nettoyage complets (entretien des sols, lavage des vitres, etc.) Personnel qualifié et équipement de qualité Horaires flexibles adaptés à votre entreprise Attention constante aux détails et à l'hygiène"
+      },
+      "commercialFloor": {
+        "title": "Entretien des Sols Commerciaux",
+        "description": "Services professionnels de nettoyage des sols pour les propriétés commerciales, améliorant l'apparence et la longévité de divers types de revêtements de sol.",
+        "moreDescription": "Nous sommes spécialisés dans l'entretien des sols pour une grande variété de surfaces, y compris la moquette, le carrelage, le parquet et le béton. Nos services incluent le nettoyage en profondeur, le cirage et le polissage pour maintenir une apparence professionnelle et soignée. Nous comprenons l'importance de préserver l'apparence et la durabilité de vos sols tout en assurant propreté et hygiène. Notre équipe utilise des outils et des techniques de pointe pour prolonger la durée de vie de vos revêtements. Services d'entretien des sols : Nettoyage en profondeur pour moquettes, carrelages et parquets Cirage et polissage des sols pour une brillance durable Élimination des taches et traitements localisés Programmes d'entretien pour les zones à fort passage Produits écologiques qui protègent vos sols et l'environnement"
+      },
+      "outdoorMaintenance": {
+        "title": "Entretien Extérieur",
+        "description": "Services d'entretien extérieur pour garder les façades et les zones environnantes propres et bien entretenues toute l'année.",
+        "moreDescription": "Nous proposons le nettoyage haute pression, l’aménagement paysager et l’entretien général afin de garantir que l’extérieur de votre propriété reste propre et accueillant. Nos services extérieurs contribuent à maintenir l'attrait visuel et la longévité de votre bâtiment. Que vous ayez besoin d'un entretien régulier ou de services saisonniers, nous pouvons élaborer un plan adapté à vos besoins spécifiques. Notre équipe est équipée pour gérer tout, du nettoyage haute pression de routine aux projets d'aménagement paysager plus complexes. Services extérieurs : Nettoyage haute pression des façades et des allées Aménagement paysager et entretien des pelouses Nettoyage saisonnier (ramassage des feuilles, déneigement) Entretien général des parkings et des espaces extérieurs Plans personnalisés adaptés aux besoins de votre propriété"
+      },
+      "eventSupport": {
+        "title": "Support Nettoyage Événementiel",
+        "description": "Support événementiel complet, y compris la mise en place avant l'événement et le nettoyage après l'événement, pour garantir des expériences fluides et impeccables.",
+        "moreDescription": "Des événements d'entreprise aux fêtes privées, nous offrons un service complet, comprenant l’installation, le nettoyage et l’entretien pendant l’événement. Notre équipe veille à ce que tout se déroule sans accroc, vous permettant de vous concentrer sur votre événement pendant que nous gérons les détails. Nous fournissons tout l’équipement et le personnel nécessaires pour assurer le succès de votre événement. Que vous organisiez une petite réunion ou une grande conférence, nous pouvons adapter nos services à vos besoins. Services de support événementiel : Installation avant l'événement et démontage après Nettoyage pendant et après l'événement Location de mobilier et d'équipements Plans personnalisés en fonction de la taille et du type d'événement Personnel professionnel et efficace pour gérer toute la logistique"
+      },
+      "closeButton": "Fermer"
     }
 }
