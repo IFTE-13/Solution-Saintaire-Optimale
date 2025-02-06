@@ -9,6 +9,11 @@
           "des3": "L'attention aux détails de Solution Saintaire Optimale est sans égal. Ils ont rendu ma maison fraîche, propre et accueillante. Je prépare déjà ma prochaine réservation avec eux !",
           "des4": "L'attention portée aux détails était remarquable. Ils ont fait briller ma maison de fond en comble : un véritable nouveau départ ! Je réserverai certainement à nouveau.",
           "des5": "Solution Saintaire Optimale est allée au-delà des attentes. Ils ont abordé des domaines auxquels je n'avais même pas pensé, et mon bâtiment n'a jamais été aussi beau. Un service vraiment au top !"
+      },
+      "cta": {
+        "title": "Découvrir Services de nettoyage exceptionnels",
+        "desc": "Découvrez un espace impeccable grâce à nos services de nettoyage professionnels. Du nettoyage en profondeur à l’entretien de routine, notre équipe d’experts veille à ce que votre environnement soit propre, frais et accueillant. Laissez-nous nous occuper du désordre afin que vous puissiez profiter d'un espace vierge au quotidien.",
+        "button": "Contactez-nous"
       }
   },
   "NavItems": {

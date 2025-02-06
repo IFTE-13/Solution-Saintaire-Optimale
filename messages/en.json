@@ -9,6 +9,11 @@
           "des3": "Solution Saintaire Optimale's attention to detail is second to none. They made my home feel fresh, clean, and inviting. I'm already planning my next booking with them!",
           "des4": "The attention to detail was remarkable. They made my home shine from top to bottom—truly a fresh start! Will definitely book again.",
           "des5": "Solution Saintaire Optimale went above and beyond. They tackled areas I hadn't even considered, and my building has never looked better. Truly top-notch service!"
+      },
+      "cta": {
+        "title": "Discover Exceptional Cleaning Services",
+        "desc": "Experience a spotless space with our professional cleaning services. From deep cleaning to routine maintenance, our expert team ensures your environment is clean, fresh, and welcoming. Let us handle the mess, so you can enjoy a pristine space every day.",
+        "button": "Contact us"
       }
   },
   "NavItems": {

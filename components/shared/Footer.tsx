@@ -34,7 +34,7 @@ const Footer = () => {
             href="mailto:arman@ssoptimale.ca" 
             className="text-sm hover:text-blue-600 transition-colors"
           >
-            {t('companyName')}
+            arman@ssoptimale.ca
           </a>
         </div>
       </div>
