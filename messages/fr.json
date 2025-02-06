@@ -16,6 +16,39 @@
         "button": "Contactez-nous"
       }
   },
+  "reasons": {
+      "mainTitle": "Raisons de Nous Choisir",
+      "description": "Chez Solution Sanitaire Optimale, nous nous consacrons à fournir des services de nettoyage de premier ordre adaptés aux besoins uniques de votre entreprise. Notre engagement envers la qualité, la satisfaction client et l'attention aux détails nous distingue dans l'industrie. Voici pourquoi vous devriez nous choisir pour tous vos besoins en nettoyage :",
+      "imageAlt": "Équipe de service de nettoyage professionnel",
+      "expert": {
+        "title": "Équipe Expert",
+        "point1": "Professionnels hautement qualifiés et expérimentés",
+        "point2": "Engagement à fournir un service de qualité",
+        "point3": "Attention à chaque détail",
+        "point4": "Satisfaction client garantie à chaque fois"
+      },
+      "plans": {
+        "title": "Plans Personnalisés",
+        "point1": "Horaires de nettoyage adaptés à votre entreprise",
+        "point2": "Options flexibles pour tous types d'installations",
+        "point3": "Réponse à vos besoins spécifiques",
+        "point4": "Solutions de nettoyage économiques"
+      },
+      "eco": {
+        "title": "Approche Écologique",
+        "point1": "Utilisation de produits de nettoyage écologiques",
+        "point2": "Réduction de notre empreinte carbone",
+        "point3": "Solutions vertes pour des espaces plus sains",
+        "point4": "Engagement envers la durabilité dans chaque travail"
+      },
+      "reliability": {
+        "title": "Fiabilité et Constance",
+        "point1": "Qualité constante à chaque visite",
+        "point2": "Service ponctuel et à l'heure",
+        "point3": "Personnel fiable et digne de confiance",
+        "point4": "Support client 24/7"
+      }
+    },
   "NavItems": {
     "companyName": "Solution Saintaire Optimale",
     "home": {

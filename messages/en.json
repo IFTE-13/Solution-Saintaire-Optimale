@@ -16,6 +16,39 @@
         "button": "Contact us"
       }
   },
+  "reasons": {
+      "mainTitle": "Reasons to Choose Us",
+      "description": "At Solution Saintaire Optimale, we are dedicated to providing top-tier cleaning services tailored to meet the unique needs of your business. Our commitment to quality, customer satisfaction, and attention to detail sets us apart in the industry. Here's why you should choose us for all your cleaning needs:",
+      "imageAlt": "Professional cleaning service team",
+      "expert": {
+        "title": "Expert Team",
+        "point1": "Highly trained and experienced professionals",
+        "point2": "Commitment to delivering quality service",
+        "point3": "Attention to every detail",
+        "point4": "Ensuring customer satisfaction every time"
+      },
+      "plans": {
+        "title": "Customized Plans",
+        "point1": "Tailored cleaning schedules to suit your business",
+        "point2": "Flexible options for all types of facilities",
+        "point3": "Responsive to your specific needs",
+        "point4": "Cost-effective cleaning solutions"
+      },
+      "eco": {
+        "title": "Eco-Friendly Approach",
+        "point1": "Use of environmentally safe cleaning products",
+        "point2": "Reducing our carbon footprint",
+        "point3": "Green cleaning solutions for healthier spaces",
+        "point4": "Commitment to sustainability in every job"
+      },
+      "reliability": {
+        "title": "Reliability & Consistency",
+        "point1": "Consistent quality across all service visits",
+        "point2": "Timely and punctual service",
+        "point3": "Trustworthy and dependable staff",
+        "point4": "24/7 customer support"
+      }
+    },
   "NavItems": {
     "companyName": "Solution Saintaire Optimale",
     "home": {
