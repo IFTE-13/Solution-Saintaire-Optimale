@@ -1,5 +1,5 @@
 import React from 'react';
-import { Clock, Facebook, Linkedin, Mail, Map, Phone } from 'lucide-react';
+import { Clock, Mail, Map, Phone } from 'lucide-react';
 import { CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { useTranslations } from 'next-intl';
 import { socialLinks } from './shared/Footer';

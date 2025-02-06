@@ -107,7 +107,7 @@ const HeroSection = () => {
 
   return (
     <div className="relative flex items-center justify-center text-center px-6 py-32">
-      <div className="absolute inset-0 bg-[radial-gradient(circle,_rgba(0,0,0,0.2)_1px,_transparent_1px)] bg-[size:20px_20px] opacity-70"></div>
+      <div className="absolute inset-0 bg-[radial-gradient(circle,_rgba(0,0,0,0.2)_1px,_transparent_1px)] dark:bg-[radial-gradient(circle,_rgba(255,255,255,0.2)_1px,_transparent_1px)] bg-[size:20px_20px] opacity-70"></div>
       <div className="relative z-10 max-w-3xl tracking-wide">
         <p className="text-5xl font-bold">{t('hero1')}</p>
         <p className="text-5xl font-bold rounded-md bg-gradient-to-r from-fuchsia-500 to-pink-500 dark:bg-transparent dark:bg-clip-text dark:text-transparent">
