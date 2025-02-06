@@ -48,7 +48,7 @@ const ContactPage = () => {
   return (
     <div>
       <section className="px-6 py-12 background">
-        <div className="lg:flex lg:items-center lg:gap-x-12 container mx-auto">
+        <div className="lg:flex lg:items-center lg:gap-x-12 px-6 container mx-auto">
           <div className="lg:w-1/2">
             <ContactInfo />
           </div>
