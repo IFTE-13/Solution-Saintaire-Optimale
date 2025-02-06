@@ -131,7 +131,7 @@ const AboutPage = () => {
         <p className='text-2xl font-bold gradient-text'>{t('companyName')}</p>
         <p className='text-justify text-lg'>{t('description')}</p>
       </div>
-      <Card className='relative mx-6 hover:shadow-md backgound'>
+      <Card className='relative mx-6 hover:shadow-md card-background'>
         <CardHeader className='space-y-4'>
           <CardTitle>{t('mission.title')}</CardTitle>
           <CardDescription>{t('mission.description')}</CardDescription>
