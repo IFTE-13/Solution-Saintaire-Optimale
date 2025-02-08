@@ -3,6 +3,7 @@ import HeroImage from "@/public/hero-art.png"
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 export const Hero = () => {
   const t = useTranslations('HomePage');
@@ -21,7 +22,11 @@ export const Hero = () => {
                 {t('description')}
             </p>
             <div className="flex gap-1 items-center mt-[30px]">
-              <Button className="">{t('button')}</Button>
+              <Button>
+                <Link href={"/contact"}>
+                {t('button')}
+                </Link>
+              </Button>
             </div>
           </div>
 

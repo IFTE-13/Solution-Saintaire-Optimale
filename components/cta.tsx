@@ -86,19 +86,11 @@ const CTA = () => {
 
           <motion.div
             variants={itemVariants}
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
           >
-            <Button className="mt-6 w-1/4 relative overflow-hidden group">
-              <Link href="/contact" className="relative z-10">
+            <Button className="mt-6 w-1/4 relative overflow-hidden">
+              <Link href="/contact" className="z-10">
                 {t("cta.button")}
               </Link>
-              <motion.div
-                className="absolute inset-0 bg-blue-600 dark:bg-blue-400"
-                initial={{ x: "-100%" }}
-                whileHover={{ x: 0 }}
-                transition={{ duration: 0.3 }}
-              />
             </Button>
           </motion.div>
         </div>

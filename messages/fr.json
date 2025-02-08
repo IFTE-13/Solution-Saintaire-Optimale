@@ -83,7 +83,7 @@
     "companyName": "Solution Saintaire Optimale",
     "home": {
       "href": "/",
-      "lable": "Maison"
+      "lable": "Page d’accueil"
     },
     "about": {
       "href": "/a-propos",
@@ -91,12 +91,12 @@
     },
     "contact": {
       "href": "/contact",
-      "lable": "contactez-moi"
+      "lable": "Contactez-nous"
     }
   },
   "FooterSection": {
     "companyName": "Solution Saintaire Optimale",
-    "location": "Québec, Canada"
+    "location": "Laval, Québec, Canada"
   },
   "AboutPage": {
     "title": "À propos de nous",
