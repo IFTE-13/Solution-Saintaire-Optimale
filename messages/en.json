@@ -3,6 +3,7 @@
       "title": "Comprehensive Cleaning Services Tailored to Your Needs",
       "description": "Discover our comprehensive range of services crafted to maintain the highest standards of cleanliness for your space. Whether it’s your home, office, or commercial establishment, we’re dedicated to creating a spotless, healthy, and welcoming environment that you can enjoy every day.",
       "button": "Contact us",
+      "about-title": "Who are we?",
       "about": "At Solution saintaire optimale, we pride ourselves on delivering exceptional cleaning and facilities management services tailored to the unique needs of each of our clients. With years of experience in both residential and commercial cleaning, we are committed to providing spotless, hygienic, and welcoming environments for your home, office, or business. We understand that every client has different needs, which is why we offer flexible cleaning schedules and packages to fit your lifestyle or business requirements. Our mission is to deliver a level of service that exceeds expectations and fosters long-lasting relationships with our clients.",
       "aboutButton": "More",
       "reviewDescription": {
@@ -178,7 +179,7 @@
   "contact": {
     "title": "Get in Touch",
     "description": "We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
-    "location": "Quebec, Canada",
+    "location": "Laval, Quebec, Canada",
     "phone": "514-235-7890",
     "email": "arman@ssoptimale.ca",
     "support": "24/7 Support Available",

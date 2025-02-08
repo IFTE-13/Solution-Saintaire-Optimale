@@ -7,8 +7,8 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { Locale, routing, usePathname, useRouter } from "@/i18n/routing";
-import { useParams } from "next/navigation";
+import { Locale, routing } from "@/i18n/routing";
+import { usePathname, useRouter } from "next/navigation";
 import { ReactNode } from "react";
 
 type Props = {
@@ -19,24 +19,31 @@ type Props = {
 
 export default function LocaleSwitcherSelect({ defaultValue, label }: Props) {
   const router = useRouter();
-
   const pathname = usePathname();
-  const params = useParams();
 
   function onSelectChange(nextLocale: string) {
-    router.replace(
-      // @ts-expect-error -- TypeScript will validate that only known `params`
-      // are used in combination with a given `pathname`. Since the two will
-      // always match for the current route, we can skip runtime checks.
-      { pathname, params },
-      { locale: nextLocale as Locale }
-    );
+    // Get the current path segments
+    const segments = pathname.split('/');
+    
+    // Remove the current locale if it exists
+    if (routing.locales.includes(segments[1] as Locale)) {
+      segments.splice(1, 1);
+    }
+    
+    // Insert the new locale after the first slash
+    segments.splice(1, 0, nextLocale);
+    
+    // Construct the new path
+    const newPath = segments.join('/');
+    
+    // Use push instead of replace to ensure proper navigation
+    router.push(newPath);
   }
 
   return (
     <Select defaultValue={defaultValue} onValueChange={onSelectChange}>
       <SelectTrigger
-        className='w-[70px] h-8 border-none bg-transparent focus:ring-0 focus:ring-offset-0'
+        className="w-[70px] h-8 border-none bg-transparent focus:ring-0 focus:ring-offset-0"
         aria-label={label}
       >
         <SelectValue />

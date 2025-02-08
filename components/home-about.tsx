@@ -10,7 +10,7 @@ const HomeAbout = () => {
     <section className="bg-[#EAEEFE] py-16 dark:bg-transparent">
         <div className="relative flex h-[780px] w-full flex-col items-center justify-center overflow-hidden rounded-lg">
         <div className="container mx-auto mb-10 space-y-8 flex items-center justify-center flex-col">
-            <h2 className="text-3xl md:text-[54px] md:leading-[60px] font-bold gradient-text">Who Are We?</h2>
+            <h2 className="text-3xl md:text-[54px] md:leading-[60px] font-bold gradient-text">{t("about-title")}</h2>
             <p className='max-w-4xl text-justify mx-6'>{t('about')}</p>
             <Button>
                 <Link href={"/about"}>

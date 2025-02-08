@@ -58,7 +58,6 @@ export function Services() {
     <section className="bg-[#EAEEFE] py-16 dark:bg-transparent">
         <div className="max-w-[540px] mx-auto mb-10">
             <h2 className="text-center text-3xl md:text-[54px] md:leading-[60px] font-bold gradient-text">Services</h2>
-            <h2 className="text-center text-2xl font-bold text-sky-800"></h2>
         </div>
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
         <div ref={ref} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
