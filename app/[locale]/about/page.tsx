@@ -38,7 +38,7 @@ const sections: Record<string, SectionConfig[]> = {
   ]
 };
 
-const AnimatedCard = motion(Card);
+const AnimatedCard = motion.create(Card);
 
 
 const Section = ({ type, items }: { type: string; items: SectionConfig[] }) => {
