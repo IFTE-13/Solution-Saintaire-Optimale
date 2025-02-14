@@ -15,7 +15,6 @@ export const routing = defineRouting({
         fr: "/contactez-nous",
     }
   },
-  localeDetection: false,
   localePrefix: 'always'
 });
 
