@@ -83,15 +83,12 @@
   "NavItems": {
     "companyName": "Solution Saintaire Optimale",
     "home": {
-      "href": "/",
       "lable": "Home"
     },
     "about": {
-      "href": "/about",
       "lable": "About"
     },
     "contact": {
-      "href": "/contact",
       "lable": "Contact"
     }
   },

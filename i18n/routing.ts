@@ -4,7 +4,19 @@ import {createNavigation} from 'next-intl/navigation';
 export const routing = defineRouting({
   locales: ['en', 'fr'],
   defaultLocale: 'fr',
-  localeDetection: false
+  pathnames: {
+    '/': '/',
+    '/about': {
+        en: '/about',
+        fr: "/a-propos",
+    },
+    '/contact': {
+        en: '/contact',
+        fr: "/contactez-nous",
+    }
+  },
+  localeDetection: false,
+  localePrefix: 'always'
 });
 
 export type Locale = (typeof routing.locales)[number];
