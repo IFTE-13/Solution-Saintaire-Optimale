@@ -3,13 +3,13 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Logo from '@/public/logo.png';
 import LogoWhite from '@/public/logo-white.png';
-import { FacebookIcon, InstagramIcon, TwitterIcon } from 'lucide-react';
+import { FacebookIcon, InstagramIcon, LinkedinIcon } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
 export const socialLinks = [
   { href: '#', label: 'Facebook', icon: <FacebookIcon />, color: 'hover:text-blue-700' },
   { href: '#', label: 'Instagram', icon: <InstagramIcon />, color: 'hover:text-red-500' },
-  { href: '#', label: 'Twitter', icon: <TwitterIcon />, color: 'hover:text-blue-500' },
+  { href: '#', label: 'Linked In', icon: <LinkedinIcon />, color: 'hover:text-blue-500' },
 ];
 
 const Footer = () => {
