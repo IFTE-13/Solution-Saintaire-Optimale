@@ -9,20 +9,20 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
-import Link from "next/link";
 import ToggleTheme from "@/components/toogle-theme";
 import Image from "next/image";
 import LocaleSwitcher from "@/components/Locale/LocaleSwitcher";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/routing";
 
 const Navbar = () => {
   const t = useTranslations("NavItems");
   const [isOpen, setIsOpen] = React.useState(false);
 
   const navItems = [
-    { href: "/", label: t("home.lable") },
-    { href: "/about", label: t("about.lable") },
-    { href: "/contact", label: t("contact.lable") },
+    { href: "/" as const, label: t("home.lable") },
+    { href: "/about" as const, label: t("about.lable") },
+    { href: "/contact" as const, label: t("contact.lable") },
   ];
 
   return (
