@@ -1,15 +1,15 @@
+import { NextResponse, NextRequest } from "next/server"; // Import NextRequest
 import createMiddleware from "next-intl/middleware";
 import { routing } from "@/i18n/routing";
 
-
 export default createMiddleware({
-  locales: routing.locales,
-  defaultLocale: routing.defaultLocale,
-  localePrefix: 'always'
+  ...routing,
+  localePrefix: 'always',
+  defaultLocale: 'fr'
 });
 
 export const config = {
-    matcher: [
+  matcher: [
     // Enable a redirect to a matching locale at the root
     '/',
 

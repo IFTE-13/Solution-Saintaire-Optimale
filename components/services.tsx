@@ -22,7 +22,7 @@ const projects: Project[] = [
   { id: 'eventSupport', image: "/cleaingsupport.jpg" }
 ];
 
-const MotionCard = motion(Card);
+const MotionCard = motion.create(Card);
 
 export function Services() {
   const t = useTranslations('services');
