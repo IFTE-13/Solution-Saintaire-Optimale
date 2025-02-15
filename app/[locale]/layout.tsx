@@ -21,11 +21,13 @@ const poppins = Poppins({ subsets: ["latin"], weight: ["400", "600"] });
 export default async function LocaleLayout({
   children,
   params
-}: {
+}: Readonly<{
   children: React.ReactNode;
   params: {locale: string};
-}) {
+}>) {
+
   const { locale } = await params;
+
   if (!routing.locales.includes(locale as Locale)) {
     notFound();
   }
@@ -33,23 +35,23 @@ export default async function LocaleLayout({
   const messages = await getMessages();
  
   return (
-    <html lang={locale} suppressHydrationWarning>
       <ReactLenis root>
-      <body className={twMerge(poppins.className, "antialiased")}>
-      <ThemeProvider
-            attribute="class"
-            defaultTheme="system"
-            enableSystem
-            disableTransitionOnChange
-          >
-          <NextIntlClientProvider messages={messages} locale={locale}>
-            <Navbar />
-            {children}
-            <Footer />
-          </NextIntlClientProvider>
-        </ThemeProvider>
-      </body>
+        <html lang={locale} suppressHydrationWarning>
+          <body className={twMerge(poppins.className, "antialiased")}>
+          <ThemeProvider
+                attribute="class"
+                defaultTheme="system"
+                enableSystem
+                disableTransitionOnChange
+              >
+              <NextIntlClientProvider messages={messages} locale={locale}>
+                <Navbar />
+                {children}
+                <Footer />
+              </NextIntlClientProvider>
+            </ThemeProvider>
+          </body>
+        </html>
       </ReactLenis>
-    </html>
   );
 }

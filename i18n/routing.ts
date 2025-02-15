@@ -14,7 +14,8 @@ export const routing = defineRouting({
         en: '/contact',
         fr: "/contactez-nous",
     }
-  }
+  },
+  localePrefix: "as-needed"
 });
 
 export type Locale = (typeof routing.locales)[number];
